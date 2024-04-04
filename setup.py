@@ -5,7 +5,7 @@ with open('requirements.txt') as f:
 
 setup(
     name='prosto_sms',
-    version='0.0.1',
+    version='0.0.2',
 
     author='Alex Dennitsev',
     author_email='me@chydo.dev',
