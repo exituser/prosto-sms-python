@@ -10,5 +10,5 @@ class NoAuthData(ApiException):
     pass
 
 
-class ApiError(ApiException):
+class RequestError(ApiException):
     pass
