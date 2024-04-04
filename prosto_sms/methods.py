@@ -44,16 +44,15 @@ class Methods:
             )
         )
 
-
     def get_message_report(
         self,
         *,
         id: int
     ) -> models.GetMessageReportData:
         """
-        Implementation of
+        Implementation of get_msg_report
 
-        :param id:
+        :param id: internal message id
         :return: result of calling the method
         """
 
@@ -68,7 +67,7 @@ class Methods:
 
     def get_profile(self) -> models.GetProfileData:
         """
-        Implementation of
+        Implementation of get_profile
 
         :return: result of calling the method
         """
@@ -85,9 +84,9 @@ class Methods:
         group_directions: int = None
     ) -> models.GetPricesData:
         """
-        Implementation of
+        Implementation of get_prices
 
-        :param group_directions:
+        :param group_directions: id of the route group
         :return: result of calling the method
         """
 
@@ -107,10 +106,10 @@ class Methods:
         call_protection: int
     ) -> models.WaitCallData:
         """
-        Implementation of
+        Implementation of wait_call
 
-        :param phone:
-        :param call_protection:
+        :param phone: receiver phone number
+        :param call_protection: call waiting time
         :return: result of calling the method
         """
 
