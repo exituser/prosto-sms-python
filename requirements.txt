@@ -2,3 +2,4 @@ requests
 pydantic
 loguru
 setuptools
+wheel
