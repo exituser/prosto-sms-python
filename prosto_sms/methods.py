@@ -81,7 +81,7 @@ class Methods:
     def get_prices(
         self,
         *,
-        group_directions: int = None
+        group_directions: str = None
     ) -> models.GetPricesData:
         """
         Implementation of get_prices

@@ -4,7 +4,7 @@ from pydantic import BaseModel
 
 
 class GetPricesData(BaseModel):
-    group_directions: str
+    group_directions: dict
 
 
 class GetMessageReportData(BaseModel):
